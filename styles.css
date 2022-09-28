@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  body  {
+    font-family: "Inter", sans-serif;
+  }
+
+  .main-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 1rem;
+
+  }
+
+  .copy {
+    margin: 0.5rem;
+
+  }
+
+  .buttons {
+    margin: 1rem;
+    font-family: "Inter", sans-serif;
+  }
+
+  .Discord {
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    border: #FFD658;
+    font-size: 16px;
+  }
+
+  .Discord:hover {
+    background-color: #FFD658;
+    cursor: pointer;
+  }
